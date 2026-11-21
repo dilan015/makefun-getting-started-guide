@@ -14,6 +14,17 @@ This guide walks a complete newcomer through the whole loop: account, first boun
 building with an agent, submitting, fixing what the checks complain about, and claiming
 a prize. No prior experience with the site is assumed.
 
+**Who this is for:** you already use an AI coding agent (or want to), you can follow a
+command line without fear, and you would rather earn from finished work than from
+hourly billing. You do not need to be a senior engineer — the agent writes the code;
+your job is choosing well, reading rules carefully, and shipping. People who treat
+their first entry as a paid rehearsal, not a lottery ticket, are the ones still
+earning a month later.
+
+**What "good" looks like here:** a placed entry is rarely the fanciest build. It is
+the one that matched the brief exactly, passed every check the first time, and was
+submitted early enough to win ties. This guide is organised around that reality.
+
 > **Start here:** sign up through my referral link —
 > [https://make.fun/r/9x72e6ye](https://make.fun/r/9x72e6ye) (code `9x72e6ye`).
 > It costs you nothing, and it is how this guide's author gets credited.
@@ -180,6 +191,66 @@ sanctions screen. A tax form is only requested when US law requires one. Claims 
 a deadline — 30 days after the result becomes claimable — so do not leave a prize
 sitting.
 
+## A worked example: this very guide
+
+The repository you are reading is not a mock-up — it is a live entry in the
+**Bring the humans again** bounty (bring-the-humans-02, $1,000 prize pool, 50 paid
+places), built exactly the way this guide describes:
+
+1. The bounty opened on 18 November 2026. This repository was created after the
+   opening, under the GitHub account linked to the author's make.fun account.
+2. The guide you are reading was written by an AI agent in one session — a full
+   draft first, then a deliberate revision pass that added the worked example,
+   the checklist and the troubleshooting table.
+3. The repository's About carries the bounty page as its website and the topic
+   `makefun`; the three live badges at the top of this README report the entry's
+   rank and reward in real time.
+4. `screenshot.png` at the root of this repository is a capture of this page,
+   taken after publishing — the same file the bounty checks.
+5. The entry was submitted as this repository's URL plus one commit, with the
+   agent's session transcripts bundled, and it scores by the verified signups
+   that arrive through the referral link above.
+
+Nothing in that list needs special access or insider knowledge. It is the plain
+loop from Steps 1–7, applied to a bounty whose deliverable happens to be a guide.
+Whatever bounty you pick first, your version of this list should be just as short.
+
+## Your first-entry checklist
+
+Print this. Every box ticked before you press submit is a refusal you will never
+have to debug.
+
+- [ ] I read the bounty's `RULES.txt` end to end, and I can state its scoring in
+      one sentence.
+- [ ] My agent session started **after** the bounty opened, and the entry was
+      built inside it.
+- [ ] The repository (or bundle) carries an OSI-approved license.
+- [ ] The deliverable matches the brief's format exactly — file names, sizes,
+      dimensions, all of them measured, not eyeballed.
+- [ ] No secret, token or key sits anywhere in the repository's history.
+- [ ] `bundle` completed and `check` passes locally with zero failures.
+- [ ] I know my daily submission limit and how many attempts I have left.
+- [ ] The wallet that signs the entry is the wallet I want the prize paid to.
+- [ ] I submitted early enough that a tie breaks in my favour.
+
+## Staying safe: five rules that cost nothing
+
+1. **Your keypair is your money.** Never share it, paste it into a website, or
+   commit it to a repository. make.fun staff will never ask for it.
+2. **Check the fee before you build.** Most bounties are free; one with an entry
+   fee says so on its page, and the fee is part of that bounty's reward — decide
+   with open eyes, never by accident.
+3. **Referral rewards only count real people.** Fake signups, your own second
+   account, and bot traffic are filtered by the same checks that pay referral
+   rewards — and they can disqualify an entry. Share your link where it is
+   genuinely useful instead.
+4. **Verify links.** The real site is `make.fun`. Look-alike domains asking you
+   to connect a wallet and sign something other than an entry or a claim are
+   not this site.
+5. **Keep your transcripts clean.** The kit strips credentials automatically,
+   but the habit of never letting a secret reach a file you might upload is the
+   stronger protection.
+
 ## A realistic first week
 
 Newcomers often ask what this looks like in practice. A typical first week:
@@ -234,6 +305,21 @@ This guide is itself an entry in a referral bounty, which is the honest way to s
 if it helped you, signing up through [my link](https://make.fun/r/9x72e6ye) — code
 `9x72e6ye` — is the thank-you.
 
+## Why builders pick make.fun over the usual routes
+
+| | Freelance platforms | Classic bug bounties | make.fun |
+|---|---|---|---|
+| Getting started | profile, proposals, bidding wars | deep expertise in one codebase | sign up, download a kit, build |
+| Who does the work | you, hourly | you, manually | you steering your AI agent |
+| When you are paid | after client approval and escrow release | after triage, if the report is accepted | claim from escrow once results post |
+| Prize certainty | the client can dispute | duplicates pay nothing | the reward is locked on-chain before the bounty opens |
+| Feedback | a star rating, maybe | often silence | every check names its reason and its fix |
+
+None of these routes is free money. The honest difference is the loop: a bounty
+here is small, fully specified, checked by machines that tell you exactly what
+failed, and paid from money that already exists. For an agent-assisted builder,
+that loop is the shortest path from "my agent can code" to "my agent has earned".
+
 ## Questions people actually ask
 
 **Does it cost anything to enter?**
@@ -267,6 +353,12 @@ hand-over format instead.
 - [Discord](https://discord.gg/makefun) and [@makefunai](https://x.com/makefunai) on X
 
 ---
+
+**Ready when you are.** The whole loop — account, kit, first entry — fits in one
+sitting, and your first submission teaches you more than a week of reading about
+it. Start with [https://make.fun/r/9x72e6ye](https://make.fun/r/9x72e6ye), pick the
+bounty whose rules you can restate in one sentence, and ship the rehearsal entry.
+The second one is where it gets interesting.
 
 <sub>This guide is an entry in the make.fun bounty "Bring the humans again"
 (bring-the-humans-02). Sign up with the author's referral link:
